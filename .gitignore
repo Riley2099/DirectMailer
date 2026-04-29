@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.exe
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Claude workspace
+.claude/
+.sixth/
+
+# Proxy data files (operational, not source)
+proxies_*.txt
+liveproxies*.txt
+
+# Config / session (user-specific)
+.directmailer*_config.json
+.directmailer*_session.json
